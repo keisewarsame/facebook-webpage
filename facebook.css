@@ -1,0 +1,86 @@
+/*GENERAL STYLING*/
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+}
+body, html, .body {
+    height: 100%;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.facebook-logo-side {
+    width: 450px;
+    margin-top: 80px;
+}
+
+.facebook-logo {
+    height: 106px;
+    margin: -28px;
+}
+
+.facebook-textbox-side {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 90px;
+    width:450px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.4)
+}
+
+.facebook-textbox-side input {
+    width: 86%;
+    height: 12%;
+    margin-bottom: 10px;
+    padding-left: 5px
+}
+
+input::placeholder {
+    padding-left: 5px;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 88%;
+    height: 12%;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #1877f2; 
+    margin-top: 10px;
+}
+
+.empty-div{
+    width: 89%;
+    border-top: 1px solid red;
+    border-color: rgb(218, 221, 225);
+}
+
+.create-button {
+    background-color: rgb(66, 183, 42);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 86%;
+    height: 12%;
+    margin-bottom:;
+}
